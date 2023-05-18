@@ -1,0 +1,42 @@
+.slide-list-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 80px;
+}
+
+.actions-container {
+  position: absolute;
+  left: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.actions-title {
+  margin-bottom: 8px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.container {
+  margin: 20px auto;
+  width: 260px;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  overflow: hidden auto;
+  height: 80vh;
+  padding: 8px;
+}

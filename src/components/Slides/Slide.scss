@@ -1,0 +1,30 @@
+.slide-container {
+    border-radius: 4px;
+    padding: 8px;
+    width: 90%;
+    height: 130px;
+    position: relative;
+  }
+  
+  .slide-content {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    height: 114px;
+    border-radius: 6px;
+    justify-content: center;
+    background: #FFF;
+    border: 1px solid #e5e8eb;
+    color: black;
+    position: relative;
+  }
+  
+  .marker {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    height: 4px;
+    background: darkblue;
+  }
+  
